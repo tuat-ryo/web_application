@@ -1,0 +1,16 @@
+current directory: /Users/chiyo/rails-twitter-react-source-2/backend/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/chiyo/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180420-28262-1waac8g.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chiyo/rails-twitter-react-source-2/backend/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/chiyo/rails-twitter-react-source-2/backend/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/chiyo/rails-twitter-react-source-2/backend/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20180420-28262-w44hm9

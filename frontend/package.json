@@ -1,0 +1,60 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "browser-sync": "^2.23.2",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.0.0",
+    "eslint-plugin-react": "^5.2.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "semantic-ui": "^2.2.13",
+    "semantic-ui-react": "^0.75.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "scripts": {
+    "lint": "eslint ./src",
+    "start": "webpack -w -d",
+    "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "useBuiltIns": true
+        }
+      ],
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties"
+    ]
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "ryo taguchi",
+  "license": "MIT",
+  "dependencies": {
+    "aphrodite": "^1.2.5",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "express": "^4.16.2",
+    "npm": "^5.6.0"
+  }
+}

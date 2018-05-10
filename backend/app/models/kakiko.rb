@@ -1,0 +1,2 @@
+class Kakiko < ApplicationRecord
+end

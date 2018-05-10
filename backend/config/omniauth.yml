@@ -1,0 +1,11 @@
+production: &production
+  twitter:
+    key: 	AIqfaUj13cwkCxlHMCfK2nloy
+    secret: 	M0Yo41E1qIEKBDA32VmIRraUnjuTaRHwW3EzVZhcqqK2GGnrGG
+
+
+development: &development
+  <<: *production
+
+test:
+  <<: *development

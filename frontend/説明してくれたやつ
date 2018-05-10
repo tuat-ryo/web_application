@@ -1,0 +1,22 @@
+
+class KakikoList {
+  render() {
+    return (
+      <div>
+        <Kakiko title="dfsas" body="sga" />
+        <Kakiko title="dsadfsa" body="fsafsda" />
+      </div>
+    )
+  }
+}
+
+class Kakiko {
+  render() {
+    return (
+      <div>
+        <p>{this.props.title}</p>
+        <p>{this.props.body}</p>
+      </div>
+    )
+  }
+}
